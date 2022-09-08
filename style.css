@@ -75,7 +75,8 @@ img {
 /* Flex group */
 .header,
 .content,
-.nav ul {
+.nav ul,
+.article {
   display: flex;
 }
 
@@ -98,6 +99,19 @@ img {
   gap: 16px;
 }
 
+.content {
+  padding: 100px 0 120px 0;
+  gap: 32px;
+  align-items: flex-start;
+}
+
+.article {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+}
+
 .article h2 {
   font-size: var(--text-xl);
   font-weight: 700;
@@ -106,4 +120,14 @@ img {
 .hero-btn {
   background-color: var(--blue);
   color: var(--white);
+}
+
+.content .img-container {
+  flex: 1.12;
+  height: 237px;
+}
+
+.content .img-container .img {
+  width: 100%;
+  height: 237px;
 }
