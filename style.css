@@ -1,6 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
-/* Custom CSS Variables */
+/* 
+    Custom CSS Variables 
+    src: https://www.w3schools.com/css/css3_variables.asp
+*/
 :root {
   /* Colors */
   --dark-blue: #1f2937;
@@ -27,4 +30,19 @@ html {
 
 body {
   font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+  color: var(--grey);
+  font-size: var(--sm);
+}
+
+ul {
+  list-style: none;
+}
+
+.hero {
+  background-color: var(--dark-blue);
 }

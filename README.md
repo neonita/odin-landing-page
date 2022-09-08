@@ -23,6 +23,7 @@ This challenge is meant to implement what was taught throughout the flexbox cour
 <br>
 <br>
 <hr>
+
 **Image Attribution**
 
 - [2H Media](https://unsplash.com/@2hmedia)
