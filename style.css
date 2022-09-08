@@ -131,3 +131,8 @@ img {
   width: 100%;
   height: 237px;
 }
+
+.information,
+.cta {
+  background-color: var(--white);
+}
