@@ -60,12 +60,15 @@ img {
 
 /* Flex group */
 .header,
-.content {
+.content,
+.nav ul {
   display: flex;
 }
 
 .header {
   padding: 19px 0;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .logo,
@@ -75,4 +78,8 @@ img {
 
 .logo {
   font-size: var(--text-md);
+}
+
+.nav ul {
+  gap: 16px;
 }
