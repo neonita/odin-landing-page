@@ -57,6 +57,10 @@ button {
   font-size: var(--text-sm);
 }
 
+button:hover {
+  cursor: pointer;
+}
+
 q,
 cite {
   color: var(--dark-blue);
@@ -83,7 +87,7 @@ cite {
 }
 
 .hero,
-.footer {
+footer {
   background-color: var(--dark-blue);
 }
 
@@ -95,7 +99,8 @@ cite {
 .list,
 .card,
 .cta,
-.cta-box {
+.cta-box,
+footer {
   display: flex;
 }
 
@@ -240,4 +245,15 @@ cite {
   background-color: var(--blue);
   color: var(--white);
   border: 2px solid var(--white);
+}
+
+footer {
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+}
+
+footer p {
+  font-size: var(--text-sm);
+  color: var(--grey);
 }
