@@ -53,6 +53,16 @@ img {
   margin: 0 auto;
 }
 
-.hero {
+.hero,
+.footer {
   background-color: var(--dark-blue);
+}
+
+.logo,
+.article h2 {
+  color: var(--white);
+}
+
+.logo {
+  font-size: var(--text-md);
 }
