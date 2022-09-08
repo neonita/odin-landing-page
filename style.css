@@ -35,8 +35,12 @@ body {
 a:link,
 a:visited {
   text-decoration: none;
+}
+
+a,
+.article p {
   color: var(--grey);
-  font-size: var(--sm);
+  font-size: var(--text-sm);
 }
 
 ul {
@@ -82,4 +86,9 @@ img {
 
 .nav ul {
   gap: 16px;
+}
+
+.article h2 {
+  font-size: var(--text-xl);
+  font-weight: 700;
 }
