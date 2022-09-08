@@ -48,10 +48,10 @@ img {
   height: auto;
 }
 
-/* .container {
+.container {
   max-width: 1024px;
   margin: 0 auto;
-} */
+}
 
 .hero {
   background-color: var(--dark-blue);
