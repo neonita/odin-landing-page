@@ -76,7 +76,8 @@ img {
 .header,
 .content,
 .nav ul,
-.article {
+.article,
+.list {
   display: flex;
 }
 
@@ -144,6 +145,12 @@ cite {
 }
 
 .information h3 {
+  text-align: center;
   font-size: var(--text-lg);
   font-weight: 700;
+}
+
+.card p {
+  color: var(--dark-blue);
+  font-size: var(--text-sm);
 }
