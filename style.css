@@ -94,7 +94,8 @@ cite {
 .article,
 .list,
 .card,
-.cta {
+.cta,
+.cta-box {
   display: flex;
 }
 
@@ -135,7 +136,8 @@ cite {
   font-weight: 700;
 }
 
-.hero-btn {
+.hero-btn,
+.cta-box {
   background-color: var(--blue);
   color: var(--white);
 }
@@ -212,5 +214,13 @@ cite {
 .cta {
   height: 350px;
   justify-content: center;
+  align-items: center;
+}
+
+.cta-box {
+  width: 100%;
+  padding: 53px 120px;
+  border-radius: 7px;
+  justify-content: space-between;
   align-items: center;
 }
