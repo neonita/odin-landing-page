@@ -47,6 +47,16 @@ ul {
   list-style: none;
 }
 
+button {
+  width: 130px;
+  height: 37px;
+  border: none;
+  border-radius: 7px;
+
+  font-weight: 700;
+  font-size: var(--text-sm);
+}
+
 img {
   width: 200px;
   height: auto;
@@ -91,4 +101,9 @@ img {
 .article h2 {
   font-size: var(--text-xl);
   font-weight: 700;
+}
+
+.hero-btn {
+  background-color: var(--blue);
+  color: var(--white);
 }
