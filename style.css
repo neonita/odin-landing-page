@@ -58,6 +58,16 @@ img {
   background-color: var(--dark-blue);
 }
 
+/* Flex group */
+.header,
+.content {
+  display: flex;
+}
+
+.header {
+  padding: 19px 0;
+}
+
 .logo,
 .article h2 {
   color: var(--white);
