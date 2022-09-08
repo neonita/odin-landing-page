@@ -19,3 +19,14 @@ Create an entire web page from a design provided by The Odin Project:
 <br>
 The image placeholders can be filled by photos chosen by me.<br>
 This challenge is meant to implement what was taught throughout the flexbox course and exercises.
+
+<br>
+<br>
+
+**Image Attribution**
+
+- [2H Media](https://unsplash.com/@2hmedia)
+- [Biletto Editor](https://unsplash.com/@billetto)
+- [XR Expo](https://unsplash.com/@xrexpo)
+- [Vinicius "amnx" Amano](https://unsplash.com/@viniciusamano)
+- [Jimi Malmberg](https://unsplash.com/@jimi_malmberg)
