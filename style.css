@@ -136,3 +136,14 @@ img {
 .cta {
   background-color: var(--white);
 }
+
+.information h3,
+q,
+cite {
+  color: var(--black);
+}
+
+.information h3 {
+  font-size: var(--text-lg);
+  font-weight: 700;
+}
