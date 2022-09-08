@@ -154,7 +154,12 @@ cite {
   width: 168px;
   height: 168px;
   border-radius: 16px;
-  border: 1px solid var(--blue);
+  border: 4.5px solid var(--blue);
+  overflow: hidden;
+}
+
+.card .img-container img {
+  height: 100%;
 }
 
 .card p {
