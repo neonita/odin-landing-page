@@ -57,9 +57,24 @@ button {
   font-size: var(--text-sm);
 }
 
-img {
-  width: 200px;
-  height: auto;
+q,
+cite {
+  color: var(--dark-blue);
+}
+
+q {
+  font-size: var(--text-lg);
+  font-style: italic;
+  font-weight: 100;
+  quotes: none;
+}
+
+cite {
+  display: block;
+  font-size: var(--text-md);
+  font-style: normal;
+  font-weight: 700;
+  text-align: right;
 }
 
 .container {
@@ -78,7 +93,8 @@ img {
 .nav ul,
 .article,
 .list,
-.card {
+.card,
+.cta {
   display: flex;
 }
 
@@ -193,22 +209,8 @@ cite {
   padding: 0 125px;
 }
 
-q,
-cite {
-  color: var(--dark-blue);
-}
-
-q {
-  font-size: var(--text-lg);
-  font-style: italic;
-  font-weight: 100;
-  quotes: none;
-}
-
-cite {
-  display: block;
-  font-size: var(--text-md);
-  font-style: normal;
-  font-weight: 700;
-  text-align: right;
+.cta {
+  height: 350px;
+  justify-content: center;
+  align-items: center;
 }
