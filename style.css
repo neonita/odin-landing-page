@@ -235,3 +235,9 @@ cite {
   font-size: var(--text-sm);
   color: var(--grey);
 }
+
+.cta-btn {
+  background-color: var(--blue);
+  color: var(--white);
+  border: 2px solid var(--white);
+}
