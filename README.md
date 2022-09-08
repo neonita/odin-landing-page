@@ -12,10 +12,9 @@ Create an entire web page from a design provided by The Odin Project:
 <div align="center">
 <img src="./design/01.png" width="50%">
 <img src="./design/02.png" width="49%">
+<small>Design — Details</small>
 </div>
-<div style="text-align: center; font-size: 12px;">
-Design | Details
-</div>
+<br>
 
 <br>
 The image placeholders can be filled by photos chosen by me.<br>
