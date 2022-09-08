@@ -185,7 +185,16 @@ cite {
 }
 
 .quote {
+  padding: 138px 0 98px 0;
   background-color: var(--grey);
+}
+
+.quote .container {
+  padding: 0 125px;
+}
+
+q,
+cite {
   color: var(--dark-blue);
 }
 
